@@ -15,3 +15,9 @@ Console.WriteLine("My favourite dish is " + classification[0]);
 
 Console.WriteLine("The last is " + classification[classification.Length-1]);
 
+if (classification.Length % 2 == 0){
+    Console.WriteLine("In the middle there are " + classification[(classification.Length/2)-1] + " and " + classification[classification.Length/2]);
+}
+else{
+    Console.WriteLine("In the middle there is " + classification[classification.Length/2]);
+}
